@@ -23,6 +23,16 @@
             .middle{
                 list-style-position: inside;
             }
+            .flex-container{
+                display: flex;
+                justify-content: space-evenly;
+                gap: 10px;
+                align-items:flex-end;
+            }
+            .image-size{
+                height: 100px;
+                width: auto;
+            }
         </style>
     </head>
 <title>
@@ -46,11 +56,15 @@
     <p id='Big'>
         A list of things I like:
     </p>
-    <ul>
-        <li> Video Games<br> <img src="https://s.yimg.com/ny/api/res/1.2/dwmYi_rRrHyeIOk3CiTHfA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2021-09/bd100ab0-0abb-11ec-bf3d-86a63775ab8a" width="100"></li><br>
-        <li> Anime <br><img src="https://assets-prd.ignimgs.com/2021/09/09/jujutsu-1631147389461.jpg?width=1920" width="100"> </li>   <br>
-        <li> Running a code and getting no errors <br><img src="https://images.squarespace-cdn.com/content/v1/555e773de4b00d375caaf65d/1520780949947-H0TJBL064VV5LJK7WPND/do+girls+need+to+code+to+be+successful%3F" width="100"> </li>  <br>
+    <ul >
+     <div class="flex-container">
+        <li> Video Games<br> <img class="image-size" src="https://s.yimg.com/ny/api/res/1.2/dwmYi_rRrHyeIOk3CiTHfA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2021-09/bd100ab0-0abb-11ec-bf3d-86a63775ab8a"></li><br>
+        <li> Anime <br><img class="image-size" src="https://assets-prd.ignimgs.com/2021/09/09/jujutsu-1631147389461.jpg?width=1920"> </li>   <br>
+        <li> Running a code and getting no errors <br><img class="image-size" src="https://images.squarespace-cdn.com/content/v1/555e773de4b00d375caaf65d/1520780949947-H0TJBL064VV5LJK7WPND/do+girls+need+to+code+to+be+successful%3F"> </li>  <br>
+     </div>
+     <div class="flex-container">
         <li> I enjoy not stressing as well </li>
+     </div>
     </ul>
     <div id="Goals">
      <h3 class="centering">
